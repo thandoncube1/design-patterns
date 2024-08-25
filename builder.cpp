@@ -167,3 +167,10 @@ void ClientCode(Director& director) {
 
     delete builder;
 }
+
+int main() {
+    Director* director = new Director();
+    ClientCode(*director);
+    delete director;
+    return 0;
+}
