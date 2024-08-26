@@ -67,3 +67,12 @@ public class Iterators {
 }
 
 // It is very important that we make the functional pipeline as pure as possible. Avoid shared mutable variables.
+
+// What is a pure function:
+// A pure function is idempotent, it returns the same result for the same input and does not have any side effects.
+// 1. It does not change any state that is visible outside
+// 2. It does not depend on anything outside that may possibly change
+
+// Functional programming relies on lazy evaluation for efficiency.
+// Lazy evaluation and parallel execution rely on
+// immutability and purity, not because it is fashionable, but because it is essential to its survival.
