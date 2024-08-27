@@ -34,3 +34,11 @@ public class Sample {
         call(new CatLover());
     }
 }
+
+/**
+ *  The difference between and Abstract Factory vs Factory Method
+ *
+    Factory Method: A class or an interface relies on a derived class to provide the implementation whereas the base provides the common behaviour that you want to capture.
+
+    Factory Method uses inheritance as a design tool.
+ */
